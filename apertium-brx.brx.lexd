@@ -1,0 +1,109 @@
+# Morphological Transducer for Bodo
+
+# Part of speech categories
+# <n>      # Noun
+# <v>      # Verb
+# <adj>    # Adjective
+# <prn>    # Pronoun
+# <adv>    # Adverb
+# <pr>     # Preposition
+# <conjcoo> # Coordinating Conjunction
+
+# <sent>   # Sentence-ending punctuation
+# <guio>   # Hyphen
+# <cm>     # Comma
+# <apos>   # Apostrophe
+# <quot>   # Quotation mark
+# <lquot>  # Left quotation mark
+# <rquot>  # Right quotation mark
+# <lpar>   # Left parenthesis
+# <rpar>   # Right parenthesis
+
+# Noun subcategories
+# <pl>     # Plural
+# <sg>     # Singular
+# <ind>    # Indefinite
+# <def>    # Definite
+
+# Verb subcategories
+# <iv>     # Intransitive
+# <tv>     # Transitive
+# <past>   # Past
+# <npast>  # Non-past
+# <imp>    # Imperative
+# <neg>    # Negative
+
+# Person tags
+# <p1>     # First person
+# <p2>     # Second person
+# <p3>     # Third person
+
+# Cases
+# <subj>   # Subject
+# <obj>    # Object
+
+# Adjective tags
+# <comp>   # Comparative
+# <sup>    # Superlative
+
+# Other symbols
+# >      # Morpheme boundary
+
+###############################################################################
+###                       M O R P H O T A C T I C S                         ###
+###############################################################################
+
+PATTERNS
+Nouns
+
+PATTERN Nouns
+NounStems [ <n>: ] NounNumber
+Prefix? NounStems [ <n>: ] Suffix?
+
+###############################################################################
+###                          L E X I C O N                                  ###
+###############################################################################
+
+LEXICON NounNumber
+<sg>:
+<pl>:फोर
+
+LEXICON NounStems
+बिलाइ
+फिथाइ
+बन
+गामि
+मुं
+मैदेर
+जायगा
+बाबु
+हा
+अन्थाइ
+खथा
+न’
+हादाब
+माइरं
+गम
+दाना
+इन्जुर
+माइ
+ट्राइबेल
+बिफां
+मुङा
+
+LEXICON Prefix
+<neg>:दा
+
+LEXICON Suffix
+<acc>:खौ
+
+
+# Resources:
+# https://github.com/apertium/lexd/blob/master/Usage.md
+# https://wiki.apertium.org/wiki/List_of_symbols
+# http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+# http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+# http://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+# https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+# https://github.com/hfst/
+# http://wiki.apertium.org/wiki/Hfst
