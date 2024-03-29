@@ -1,0 +1,292 @@
+################################################
+## Morphological Transducer for Bodo language ##
+################################################
+
+PATTERNS
+NounRoot [ <n>: ] Number? Cases? Particle?
+Pronoun Cases? Particle?
+VerbRoot [ <v>: ] Aspects? Tenses? Particle?
+Conjunction
+AdverbRoot [ <adv>: ] Particle?
+AdjectiveRoot [ <adj>: ] Number? Cases? Particle?
+PostPosition
+
+LEXICON NounRoot
+गामि  # "village"
+मुं   # "name"
+मैदेर # "elephant"
+जायगा # "place"
+आइ # "mother"
+दाउ # "bird" 
+हा # "land"
+अन # "rice powder"
+अर # "fire"
+ख’ # "place where hen lays egg"
+गं # "horn"
+सु # "thorn"
+बार # "wind"
+दै # "water"
+सैमा # "dog"
+बिजाब # "book"    
+फुंखा # "source"
+दावहा # "war"
+थाग्रा # "place"
+हादाब # "containing land"
+दैमा # "river"
+मोदाइ # "deity/god"
+बरम # "disease"
+सल' # "story"
+अखा # "rain"
+सावथाल # "group of people belonging to santal community"
+अखाफोर # "moon"
+दालान # "big building or hallway"
+दालां # "bridge"
+न’ # "house"
+माइरं # "uncooked rice or not prepared rice"
+गम # "wheat"
+इन्जुर # "wall"
+गराइ # "horse"
+गाब # "colour"
+लैथो # "sea"
+बाबु # "brother"
+बिगोमा # "owner"
+अन्थाइ # "stone"
+खथा # "paper notebook"
+साल # "sal tree"
+थामजि # "numeral: thirty"
+मोसौ # "cow"
+बोरमा # "goat"
+मन्दिर # "temple: loan word"
+लामा # "road"
+एत'वा # "person name"
+बिबौ # "person name"
+अदेबा # "person name"
+बिफां # "tree"
+सोरखार # "government"
+इंराज # "british rule government"
+मंगला # "person name"
+सिलाइ # "gun"
+गुलि # "bullet"
+बिलाय # "page" # Check for spelling issue later
+बिलाइ # "leaf"
+हाग्रा # "grass"
+हाग्रामा # "forest"
+जुनाद # "classifer of animals"
+मोसा # "tiger"
+बिमा # "mother"
+फिथाइ # "fruit"
+बन # "wood"
+सेसा # "rabbit"
+मोदै # "porcupine"
+दाव # "bird" # Check for spelling issue later
+फराइसा # "student"
+दाइन # "numeral: eight"
+सानाथ्रि # "soldier"
+दौरि # "priest"
+निजोरा # "water fall"
+मैसो # "buffalo"
+अख्रां # "sky"
+फोरोंगिरि # "teacher"
+फराइसालि # "school"
+बोरलाधिर # "archer"
+आबौ # "grandfather"
+सालगेरिया # "person name"
+दाना # "food for animals"
+आरज # "prayer"
+आइन # "law"
+जेननाय # "to lost"
+सावनाय # "brunt"
+मासे #  "number one"
+मोनसे # "number one"
+सारि # "sari cloth"
+बाथ्रा # "talk"
+सोंथि # 
+बोसोर # "year"
+हानजासे # 
+मुन्द्रा # 
+बोलो # "strength"
+बिरसा # "person name"
+मुन्दा #
+
+LEXICON Number
+फोर<pl>:फोर # Plural 
+मोन<pl>:मोन # Plural
+सोर<pl>:सोर # Plural
+
+फोर<pl>ा<nom>:फ्रा # Plural
+
+LEXICON Cases
+या<nom>:या # Nominative
+ा<nom>:ा # Nominative
+यो<nom>:यो # Nominative
+खौ<acc>:खौ # Accusative
+जों<ins>:जों # Instrumental or Instructive
+नि<gen>:नि # Genitive
+हा<gen>:हा # Genitive
+आव<loc>:आव # Locative # Spelling changes here need to check again
+याव<loc>:याव # Locative
+वाव<loc>:वाव # Locative
+नो<dat>:नो # Dative
+
+LEXICON Pronoun
+आं<pers><p1><sg>:आं # "1st person - singular - i"
+जों<pers><p1><pl>:जों # "1st person - plural - we"
+
+नों<pers><p2><sg>:नों # "2nd person - singular - you"
+नोंथों<pers><p2><sg>:नोंथों # "2nd person - singular - you (honour)"
+
+नोंसोर<pers><p2><pl>:नोंसोर # "2nd person - plural - you"
+नोंथोंमान<pers><p2><pl>:नोंथोंमान # "2nd person - plural - you (honour)"
+
+बि<prx><p3><sg>:बि # "he/she - proximate"
+बे<prx><p3><sg>:बे # "it"
+बै<dst><p3><sg>:बै  # "he/she/it"
+बिथों<pers><p3><sg>:बिथों # "he/she (honour)"
+
+बिसोर<prx><p3><pl>:बिसोर # "they"
+बेफोर<prx><p3><pl>:बेफोर # "they"
+बैसोर<dst><p3><pl>:बैसोर # "they - distant"
+बैफोर<dst><p3><pl>:बैफोर  # "they - distant"
+बिथोंमान<pers><p3><pl>:बिथोंमान # "they (honour)"
+
+LEXICON Conjunction
+आरो<cnjcoo>:आरो # "Co-ordinating conjunction - and"
+एबा<cnjcoo>:एबा # "Co-ordinating conjunction - or"
+नाथाय<cnjcoo>:नाथाय # "Co-ordinating conjunction - but"
+
+मानोना<cnjsub>:मानोना # "Sub-ordinating conjunction - because"
+
+LEXICON VerbRoot
+बुं # "say"
+दं # "is there"
+फै # "come"
+नु # "see"
+लु # "make"
+खा # "pluck"
+दा # "weave"
+जा # "eat"
+था # "stay"
+थाबाय # "walk"
+हो # "give"
+लां # "take away"
+गसं # "stand"
+दोन # "keep"
+होन # "tell"
+बार # "jump"
+ला # "take"
+लाखि # "keep"
+खार # "run"
+लिर # "write"
+हा # "done"
+मिनि # "smile"
+खोमा # "to lose"
+सिबि # ""
+मोसा # "dance"
+सफै # "to arrive"
+साव # "to burn"
+गाब # "cry"
+रंजा # "to enjoy"
+गाबजि # "to call out"
+गाखो # "climb"
+फराइ # "read"
+खालाम # "do"
+फोजोब # "to finish"
+देरहा # "win"
+गाव # "to shoot"
+फराय # "study" # need to check spelling with फराइ
+थाबाय # "walk"
+बारलां # "jump away" # lang may be distal
+मोसाफा # "dance"
+बुजि # "to understand"
+मोना # "to not get"
+नागार # "search"
+जादों # "happened"
+नाजाव # "hold"
+गावहर # "shoot"
+लुनाय # "been build"
+मोन # 
+दोनथुम # "keep hold"
+खाग्रा # "plugger"
+दुमथे # 
+खोना # "to hear"
+आवगाय # "go forward"
+गाबज्रि  #
+नेनाय  #
+सोलाय # 
+थांजोब #
+हेंथा   #
+होआ #
+सों #
+सान #
+बारग #
+नां   #
+नागारबो #
+खारखोमा #
+दानस्रांग्रा #
+थाफै #
+नायखां #
+बाहाय #
+गार #
+थावरि #
+नाजाव #
+
+LEXICON Tenses
+मोन<past>:मोन # "Past Tense"
+गोन<fut>:गोन # "Future Tense"
+गौ<fut>:गौ # "Future Tense"
+
+LEXICON Aspects
+नो<inf>:नो # "Non-finite" # Inf stands of infinitiveness in list of symbol doc # not sure if correct pos to keep it here.
+
+ो<hab>:ो # "Habitual aspects"
+यो<hab>:यो # "Habitual aspects"
+वो<hab>:वो # "Habitual aspects"
+
+गासिनो<prog>:गासिनो # "Progressive aspects"
+बाय<prog>:बाय # "Progressive aspects"
+
+दों<perf>:दों # "Perfective aspect"
+बाय<prf>:बाय # "Perfect aspect" # prf symbol not present in list of symbol
+
+खै<prf><neg>:खै # "Negative perfect aspect"
+खो<prf><itg>:खो # "Interrogative perfect aspect"
+
+
+# https://en.wikipedia.org/wiki/Grammatical_particle
+LEXICON Particle
+ना<prt>:ना # "Conjunctive Particle" # prt symbol not present in list of symbol
+नानै<prt>:नानै # "Conjunctive Particle"
+
+नो<emp>:नो # "Emphatic particle"
+हाय<emp>:हाय # "Emphatic particle"
+सो<emp>:सो # "Emphatic particle"
+बो<emp>:बो # "Emphatic particle"
+दि<emp>:दि # "Emphatic particle"
+
+बो<emp>:बो # "Inclusive particle"
+
+ना<conf>:ना  # "Confirmative Particle"
+दा<conf>:दा  # "Confirmative Particle"
+थो<conf>:थो  # "Confirmative Particle"
+
+LEXICON AdverbRoot
+जेब्ला # "when/if"
+मानो #  
+माब्ला #
+बेबादि # "like that"
+माब्रै  # 
+
+LEXICON AdjectiveRoot
+मुंदांखा # "famous"
+दासिम # "till now"
+गुबुन # "others"
+थोंगोर # "go ahead"
+बांद्राय # "a lot"
+एसेबां # "little bit more"
+गोहो #  "strength or ability"
+रोङा # "root "
+बेरेखा # 
+बेसेबां # 
+
+LEXICON PostPosition
+थाखाय<post>:थाखाय
