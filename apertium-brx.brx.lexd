@@ -121,14 +121,22 @@ LEXICON Cases
 या<nom>:या # Nominative
 ा<nom>:ा # Nominative
 यो<nom>:यो # Nominative
+
 खौ<acc>:खौ # Accusative
 जों<ins>:जों # Instrumental or Instructive
+नो<dat>:नो # Dative
+फ्राय<abl>:फ्राय # Ablative
+
 नि<gen>:नि # Genitive
 हा<gen>:हा # Genitive
+
 आव<loc>:आव # Locative # Spelling changes here need to check again
 याव<loc>:याव # Locative
 वाव<loc>:वाव # Locative
-नो<dat>:नो # Dative
+
+निथिं<all>:निथिं # Allative
+थिं<all>:थिं # Allative
+
 सिम<ill>:सिम # Illative
 
 LEXICON Pronoun
