@@ -5,7 +5,7 @@
 PATTERNS
 NounRoot [ <n>: ] Number? Cases? Particle?
 Pronoun Cases? Particle?
-VerbRoot [ <v>: ] Aspects? Tenses? Particle?
+VerbRoot [ <v>: ] Aspects? Tenses? AdverbialSuffix? Particle?
 Conjunction
 AdverbRoot [ <adv>: ] Particle?
 AdjectiveRoot [ <adj>: ] Number? Cases? Particle?
@@ -115,6 +115,8 @@ LEXICON Number
 
 फोर<pl>ा<nom>:फ्रा # Plural
 
+सालि<pl>
+
 LEXICON Cases
 या<nom>:या # Nominative
 ा<nom>:ा # Nominative
@@ -127,6 +129,7 @@ LEXICON Cases
 याव<loc>:याव # Locative
 वाव<loc>:वाव # Locative
 नो<dat>:नो # Dative
+सिम<ill>:सिम # Illative
 
 LEXICON Pronoun
 आं<pers><p1><sg>:आं # "1st person - singular - i"
@@ -139,7 +142,7 @@ LEXICON Pronoun
 नोंथोंमान<pers><p2><pl>:नोंथोंमान # "2nd person - plural - you (honour)"
 
 बि<prx><p3><sg>:बि # "he/she - proximate"
-बे<prx><p3><sg>:बे # "it"
+बे<prx><p3><sg>:बे # "Can be proxminate and demonstrative"
 बै<dst><p3><sg>:बै  # "he/she/it"
 बिथों<pers><p3><sg>:बिथों # "he/she (honour)"
 
@@ -148,6 +151,15 @@ LEXICON Pronoun
 बैसोर<dst><p3><pl>:बैसोर # "they - distant"
 बैफोर<dst><p3><pl>:बैफोर  # "they - distant"
 बिथोंमान<pers><p3><pl>:बिथोंमान # "they (honour)"
+
+रावबो<ind>:रावबो
+सोरबा<ind>:सोरबा
+बहाबा<ind>:बहाबा
+बबेयावबा<ind>:बबेयावबा
+
+गासै<ind>:गासै
+नोम्फा<pers>:नोम्फा # (Derived noun prenomail prefix)
+गाव<ref>:गाव # Reflexive pronoun
 
 LEXICON Conjunction
 आरो<cnjcoo>:आरो # "Co-ordinating conjunction - and"
@@ -217,7 +229,7 @@ LEXICON VerbRoot
 हेंथा   #
 होआ #
 सों #
-सान #
+सान # "to think / count"
 बारग #
 नां   #
 नागारबो #
@@ -234,6 +246,9 @@ LEXICON Tenses
 मोन<past>:मोन # "Past Tense"
 गोन<fut>:गोन # "Future Tense"
 गौ<fut>:गौ # "Future Tense"
+
+लिया<neg>:लिया # Negative Tense
+ला<neg>:ला # Negative Tense - short form of above
 
 LEXICON Aspects
 नो<inf>:नो # "Non-finite" # Inf stands of infinitiveness in list of symbol doc # not sure if correct pos to keep it here.
@@ -268,6 +283,9 @@ LEXICON Particle
 ना<conf>:ना  # "Confirmative Particle"
 दा<conf>:दा  # "Confirmative Particle"
 थो<conf>:थो  # "Confirmative Particle"
+
+LEXICON AdverbialSuffix
+बाव<gna>:बाव  # Adverisal suffix for verb meaning again # adverb like in the document
 
 LEXICON AdverbRoot
 जेब्ला # "when/if"
